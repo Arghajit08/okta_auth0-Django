@@ -27,4 +27,4 @@ def logout(request):
     domain=config('APP_DOMAIN')
     client_id=config('APP_CLIENT_ID')
     return_to='http://127.0.0.1:8000'
-    return HttpResponseRedirect(f"http://127.0.0.1:8000")
+    return HttpResponseRedirect(f"https://diabetes-rh73.onrender.com/")
