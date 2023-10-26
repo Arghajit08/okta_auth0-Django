@@ -15,6 +15,11 @@
             <a href="/login/auth0">Login</a>
         {% endif %}
     </nav>
+    <div>
+        {% if user.is_authenticated %}
+            <h1><a href="/home">Click</a> to go to Prediction App</h1>
+        {% endif %}
+    </div>
     {% block body %}
 
     {% endblock body %}
